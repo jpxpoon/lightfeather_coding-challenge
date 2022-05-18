@@ -14,7 +14,7 @@ Created a application with Home Page and Notification Services Page with flexibi
 ## Server - Backend
 
 - Using [mux](https://pkg.go.dev/github.com/gorilla/mux) to build backend API, handling http url request
-- `saveNotification` can be extend by adding database architecture 
+- Function `saveNotification` `/server/server.go` can be extend by adding database architecture 
 
 ## Simple Run 
 
@@ -25,7 +25,7 @@ Created a application with Home Page and Notification Services Page with flexibi
     cd client && npm start
 You can reach your client at `http://localhost:3000/` and your server at `http://localhost:3001/`
 
-### Docker environment
+## Docker environment
 
 `docker-compose.yml` for local environment
 
